@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #505331;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(9, 9, 9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: rgb(252, 252, 252);
+}
+
+#value {
+    color: rgb(252, 252, 252);
+    font-size: 2em;
+    display: block;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn.decrease {
+    background-color: #860404;
+    color: white;
+}
+
+.btn.reset {
+    background-color: #04386c;
+    color: white;
+}
+
+.btn.increase {
+    background-color: #025202;
+    color: white;
+}
